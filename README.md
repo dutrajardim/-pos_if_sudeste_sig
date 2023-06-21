@@ -1,4 +1,7 @@
-# Primeira atividade da disciplina SIG
+# Atividade da disciplina de SIG
 
-* Link para o vídeo no Youtube: [https://youtu.be/BNMuMOF5te8](https://youtu.be/BNMuMOF5te8)
-* Link para o repositório: [https://github.com/dutrajardim/pos_if_sudeste_sig](https://github.com/dutrajardim/pos_if_sudeste_sig)
+Neste repositório disponibilizo a resolução da atividade proposta na disciplina de Sistemas de Informações Geográficas do curso de Pós Graduação em Desenvolvimento Web e Mobile.
+
+Durante as aulas da disciplina foi explicado como implementar uma aplicação android com Java que utiliza o GPS para ler o posicionamento do GPS, savar em memória, possibilitando repetir o processo para um segundo ponto. As funcionabilidades disponibilizadas foram calcular a distância entre os pontos e plotar cada um dos pontos utilizando uma webview renderizando o mapa do google maps.
+
+Para esta atividade foi alterado a linguagem, assim foi utilizado o Kotlin e não o Java. Também foi utilizado o Jetpack Compose para definir as activities e não os arquivos XML.
