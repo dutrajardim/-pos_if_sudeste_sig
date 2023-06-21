@@ -136,7 +136,7 @@ fun MainContent(getLocation: () -> Point) {
                     )
                     Toast.makeText(context, "Distância: ${result[0]}", Toast.LENGTH_LONG).show()
                 }
-                Toast.makeText(context, "Leia os pontos", Toast.LENGTH_LONG).show()
+                else Toast.makeText(context, "Leia os pontos", Toast.LENGTH_LONG).show()
             },
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(5.dp)
